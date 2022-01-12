@@ -55,6 +55,7 @@ const STATIC_ASSETS_DIRECTORIES =
 
 //const PORT = 8080;
 const PORT = 8888;
+//THIS IS A TEST UPDATE WHY DOES IT THINK ITS UP TO DATE
 
 // =======================================================================================
 // Constructor
