@@ -104,7 +104,8 @@ function staticAssets( guiHandler, directories )
 // ----------------------------------------------------------------------------
 function startWebserver( guiHandler )
 {
-    guiHandler.http.listen(PORT, function ()
+    //guiHandler.http.listen(PORT, function ()
+    guiHandler.http.listen(PORT, '127.0.0.1', function ()
     {
         var ip = require("ip");
         console.log("Webserver listening on port " + PORT + ", IP address: " + ip.address() );
